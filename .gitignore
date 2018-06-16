@@ -1,0 +1,14 @@
+# OS generated files
+.DS_Store
+Icon?
+Thumbs.db
+
+# Project Files
+.tmp
+.env
+.next/
+node_modules/
+tmp/
+*.log
+dist/
+stats.json
