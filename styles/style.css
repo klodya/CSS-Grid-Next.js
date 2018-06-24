@@ -1,6 +1,10 @@
+@import 'gallery.css';
+@import 'about.css';
+
+
 html {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: normal;
   font-family: 'archisticonormal';
 }
 
@@ -39,6 +43,10 @@ a {
   text-decoration: none;
   padding: 1rem;
   font-size: 1.5rem;
+}
+
+a:hover {
+  color: #ACCBE1;
 }
 
 .logo {
@@ -107,35 +115,4 @@ img.social {
 .fade-exit {
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
-}
-
-.about-page {
-  /* margin: 0 auto; */
-  padding: 2rem;
-  font-family: 'Arial';
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  /* max-width: 60rem; */
-}
-
-.top {
-  grid-column: 1 / span 3;
-  background-color: pink;
-}
-
-
-.intro {
-  background-color: #ffe7eb;
-  grid-column: 1 / span 2;
-}
-
-.description {
-  grid-column: 2 / span 2;
-  background-color: pink;
-}
-
-.outro {
-  grid-column: 1 / span 3;
-  background-color: pink;
 }

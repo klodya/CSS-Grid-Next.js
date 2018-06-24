@@ -2,7 +2,13 @@ import Link from 'next/link'
 
 const Header = () => (
     <div className="nav">
-      <h1 className="logo">LOGO</h1>
+      
+        <Link href="/">
+          <a>
+            <h3 className="logo">✎ LOGO</h3>
+          </a>
+        </Link>
+      
       <div className="nav-bar">
         <Link href="/"><a>Home</a></Link>
         <Link href="/about"><a>About</a></Link>
