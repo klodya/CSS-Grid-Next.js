@@ -5,6 +5,18 @@ html {
 }
 
 /*  GALLERY PAGE */
+
+.gallery-page {
+  justify-content: center;
+  padding: 2rem;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 5rem);
+  grid-gap: 0.5rem;
+  grid-auto-rows: 5rem;
+  grid-auto-flow: dense;
+}
+
 .project-title {
   color: #5592bc;
   padding: 0.3rem;
@@ -13,6 +25,7 @@ html {
   margin: 2rem 0 0.2rem 0;
   cursor: pointer;
 }
+
 .project-title:hover {
   color: #ACCBE1;
 }
@@ -23,16 +36,6 @@ html {
   color: #5592bc;
   width: 50%;
   margin: 0 auto;
-}
-
-.gallery-page {
-  justify-content: center;
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 5rem);
-  grid-gap: 0.5rem;
-  grid-auto-rows: 5rem;
-  grid-auto-flow: dense;
 }
 
 .gallery-images {

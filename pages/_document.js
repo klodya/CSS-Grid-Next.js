@@ -10,8 +10,8 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="../static/fonts/archistico_normal_macroman/stylesheet.css" type="text/css" charset="utf-8" />
         </Head>
         <body>
-          <Main />
-          <NextScript />
+        <Main />
+        <NextScript />
         </body>
       </html>
     )
