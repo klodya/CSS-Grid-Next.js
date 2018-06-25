@@ -10,8 +10,11 @@ export default () => (
           </p>
         </div>
         
-        <div className="image">
+        <div className="images">
           <img className="about-image" src="/static/images/broadcast.png" ></img>
+          <img className="about-image" src="/static/images/card.png" ></img>
+          <img className="about-image" src="/static/images/document-paper.png" ></img>
+          <img className="about-image" src="/static/images/research.png" ></img>
         </div>
         
         <div className="intro">
@@ -30,25 +33,29 @@ export default () => (
         </div>
        
         <div className="image">
-          <img className="about-image" src="/static/images/money.png" ></img>
+          <img className="money-image" src="/static/images/money.png" ></img>
         </div>
+        
         <div className="description">
           <h5 className="title">Vel augue laoreet rutrum faucibus auctor.</h5>
           <p>
            Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
           </p>
+          <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+         </p>
         </div>
        
-        <div className="image">
+        <div className="dotted-image">
           <img className="bottom-image" src="/static/images/protect.png"></img>
           <p>Nulla vitae elit libero, a pharetra augue.</p>
         </div>
-        <div className="image">
+        <div className="dotted-image">
           <img className="bottom-image" src="/static/media.png" ></img>
           <p>Nulla vitae elit libero, a pharetra augue.</p>
         </div>
-        <div className="image">
-          <img className="bottom-image" src="/static/images/research.png" ></img>
+        <div className="dotted-image">
+          <img className="bottom-image" src="/static/images/network.png" ></img>
           <p>Nulla vitae elit libero, a pharetra augue.</p>
         </div>
       </div>

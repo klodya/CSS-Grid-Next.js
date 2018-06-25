@@ -1,5 +1,6 @@
-@import 'gallery.css';
+@import 'home.css';
 @import 'about.css';
+@import 'projects.css';
 @import 'contact.css';
 
 html {
@@ -43,6 +44,7 @@ a {
   text-decoration: none;
   padding: 1rem;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 a:hover {
@@ -52,41 +54,14 @@ a:hover {
 .logo {
   position: absolute;
   margin: 0;
-  left: 2rem;
-  top: 1rem;
+  left: 3.5rem;
+  top: 1.5rem;
   font-size: 3rem;
   font-weight: 100;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.main-title {
-  font-family: 'archisticonormal';
-  font-size: 3.5rem;
-  font-weight: 100;
-  color: #5592bc;
-  margin: 0;
-}
-
-.sub-title {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: 100;
-  color: #5592bc;
-}
-
-.icons {
-  margin-top: 0.5rem;
-}
-
-img.icon {
-  width: 3.9rem;
-  padding: 1.7rem;
+.pencil {
+  font-size: 3.4rem;
 }
 
 .footer {
@@ -98,10 +73,9 @@ img.icon {
   display: flex;
 }
 
-
 .footer p {
   font-size: 2rem;
-  transform:rotateY(180deg);
+  transform: rotateY(180deg);
   margin-top: 1rem;
 }
 

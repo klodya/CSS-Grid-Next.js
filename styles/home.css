@@ -1,0 +1,31 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  font-family: 'archisticonormal';
+  font-size: 3.5rem;
+  font-weight: 100;
+  color: #5592bc;
+  margin: 0;
+  text-align: center;
+}
+
+.sub-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #5592bc;
+}
+
+.icons {
+  margin-top: 0.5rem;
+}
+
+img.icon {
+  width: 3.9rem;
+  padding: 1.7rem;
+}

@@ -65,6 +65,7 @@ export default class Gallery  extends Component {
                   </div>
                 )})
               }
+          {/*  Randomised image gallery */}
           {/* {images.map((img, idx) => {
           return (
             <div  key={idx} className={`gallery-images p${Math.floor(Math.random() * 5)}`}

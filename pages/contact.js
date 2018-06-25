@@ -48,7 +48,7 @@ export default () => (
         
         <div className="get-in-touch">
           <h2 className="get-in-touch-title">Thanks! (◠‿◠)</h2>
-          <p>If you'd like to get in touch about anything I've said, or have a look at some code...</p>
+          <p>If you'd like to get in touch about anything I've said, or check out the code for this website...</p>
           <span>
             <img className="social" src="/static/email.png"></img>
             <a href="mailto:&#99;&#109;&#64;&#107;&#112;&#118;&#45;&#108;&#97;&#98;&#46;&#99;&#111;&#46;&#117;&#107;">
@@ -64,6 +64,7 @@ export default () => (
          
          <span>
            <img className="social" src="/static/github.png"></img>
+           <a href="https://github.com/klodya/CSS-Grid-Next.js">github.com/klodya/CSS-Grid-Next.js</a>
          </span>
         </div>
       </div>

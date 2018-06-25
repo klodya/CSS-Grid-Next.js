@@ -1,11 +1,3 @@
-html {
-  font-size: 16px;
-  font-weight: normal;
-  font-family: 'archisticonormal';
-}
-
-/*  GALLERY PAGE */
-
 .gallery-page {
   justify-content: center;
   padding: 2rem;
@@ -89,7 +81,7 @@ html {
 
 .gallery-images {
   background-color: #ACCBE120;
-  border: 4px solid #ACCBE160;
+  border: 4px dashed #ACCBE160;
 }
 
  .gallery-images.a .gallery-image {

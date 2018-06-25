@@ -5,7 +5,8 @@ const Header = () => (
       
         <Link href="/">
           <a>
-            <h3 className="logo">✎_ _</h3>
+            <span className="pencil">✎</span>
+            <h6 className="logo">···‒‒‒···</h6>
           </a>
         </Link>
       

@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 const Index = () => (
   <Layout>
-    <div className="page">
+    <div className="home-page">
         <h1 className="main-title">Building Static Websites</h1>
         <p className="sub-title">Next.js & CSS Grid</p>
         <div className="icons">
