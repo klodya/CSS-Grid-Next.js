@@ -8,15 +8,18 @@ export default () => (
                Vivamus sagittis lacus vel  laoreet rutrum faucibus auctor.
              </h1>
              <p className="text">
-               Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+               Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
               </p>
+           </div>
+           <div className="image">
+             <img className="about-image" src="/static/images/broadcast.png" ></img>
            </div>
            <div className="intro">
              <p>
-               Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+               Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
               </p>
               
-              <ul dir="rtl">
+              <ul>
                 <li>Nulla vitae elit libero</li>
                 <li>a pharetra augue</li>
                 <li>Cras mattis consectetur purus sit amet fermentum</li>
@@ -25,9 +28,7 @@ export default () => (
                 <li>Praesent commodo cursus magna</li>
               </ul>
            </div>
-           <div className="image">
-             <img className="about-image" src="/static/images/broadcast.png" ></img>
-           </div>
+           
            <div className="image">
              <img className="about-image" src="/static/images/money.png" ></img>
            </div>
@@ -40,19 +41,16 @@ export default () => (
               </p>
            </div>
            <div className="image">
-             <img className="about-image" src="/static/images/protect.png" ></img>
+             <img className="bottom-image" src="/static/images/protect.png"></img>
+               <p>Nulla vitae elit libero, a pharetra augue.</p>
            </div>
            <div className="image">
-             <img className="about-image" src="/static/media.png" ></img>
+             <img className="bottom-image" src="/static/media.png" ></img>
+             <p>Nulla vitae elit libero, a pharetra augue.</p>
            </div>
            <div className="image">
-             <img className="about-image" src="/static/images/research.png" ></img>
-           </div>
-           <div className="outro">
-             <p>
-               Nulla vitae elit libero, a pharetra augue.
-              </p>
-              <p> Cras mattis consectetur purus sit amet fermentum.</p>
+             <img className="bottom-image" src="/static/images/research.png" ></img>
+             <p>Nulla vitae elit libero, a pharetra augue.</p>
            </div>
          </div>
     </Layout>

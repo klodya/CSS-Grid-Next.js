@@ -1,9 +1,8 @@
 const Footer = ()=> (
   <div className="footer">
-    <img className="social" src="/static/twitter.png"></img>
-    <img className="social" src="/static/email.png" ></img>
-    <span>Misc footer content you may want here...</span>
     
+    <span> Misc footer content you may want here...</span>
+    <p>✎</p>
   </div>
 )
 
