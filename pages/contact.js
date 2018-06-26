@@ -1,7 +1,11 @@
 import Layout from '../components/Layout.js'
+import Head from 'next/head'
 
 export default () => (
     <Layout>
+      <Head>
+        <title>Contact</title>
+      </Head>
        <div className="contact-page">
         <h2 className="contact-title">Resources</h2>
          

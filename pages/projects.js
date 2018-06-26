@@ -1,5 +1,6 @@
 import Layout from '../components/Layout.js'
 import React, { Component } from 'react'
+import Head from 'next/head'
 
 const images = [
   {
@@ -54,6 +55,9 @@ export default class Gallery  extends Component {
   render () {
       return (
           <Layout>
+            <Head>
+              <title>Projects</title>
+            </Head>
              <div className="gallery-page">
                 {images.map((img, idx) => {
                 return (

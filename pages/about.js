@@ -1,7 +1,11 @@
 import Layout from '../components/Layout.js'
+import Head from 'next/head'
 
 export default () => (
     <Layout>
+      <Head>
+        <title>About</title>
+      </Head>
       <div className="about-page">
         <div className="top">
           <h1 className="title">Vivamus sagittis lacus vel  laoreet rutrum faucibus auctor.</h1>
