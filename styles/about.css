@@ -24,6 +24,18 @@
   text-align: center;
 }
 
+@media (max-width: 450px) {
+  .about-page {
+    grid-template-columns: 75px 75px 75px;
+    padding: 0.5rem;
+    padding-top: 4rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}
+
 .text {
   text-align: center;
 }
@@ -83,4 +95,18 @@ img.money-image {
   margin: 1.5rem;
   font-size: 0.9rem;
   font-style: italic;
+}
+
+@media (max-width: 450px) {
+  .images {
+    grid-template-columns: 1fr;
+  }
+
+  img.about-image {
+    width: 3rem;
+  }
+
+  img.bottom-image {
+    width: 3rem;
+  }
 }

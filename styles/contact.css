@@ -43,6 +43,20 @@
   border-right: dashed 0.2rem  #ffc0cb70;
 }
 
+@media (max-width: 450px) {
+  .contact-page {
+    padding-top: 4rem;
+  }
+
+  .css-grid,
+  .next-js,
+  .tools {
+    grid-column: span 3;
+    border-bottom: dashed 0.2rem  #ffc0cb70;
+    border-top: none;
+    border-right: none;
+  }
+}
 
 .get-in-touch {
   grid-column: 1 / span 3;

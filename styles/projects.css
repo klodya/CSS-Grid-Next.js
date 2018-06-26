@@ -39,6 +39,23 @@
   border-radius: 0.5rem;
 }
 
+@media (max-width: 450px) {
+  .gallery-page {
+    padding: 0.5rem;
+    padding-top: 4rem;
+  }
+  .project-title {
+    font-size: 1rem;
+  }
+  .project-description {
+    display: none;
+  }
+  .gallery-images {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+}
+
 /* GALLERY RANDOM */
 
 .gallery-images.p0 {
@@ -92,4 +109,11 @@
 img.gallery-image {
   margin-top: 0.5rem;
   width: 5.5rem;
+}
+
+@media (max-width: 450px) {
+  img.gallery-image {
+    margin-top: 1rem;
+    width: 3.5rem;
+  }
 }
