@@ -11,10 +11,10 @@ const Header = () => (
         </Link>
       
       <div className="nav-bar">
-        <Link href="/"><a>Home</a></Link>
-        <Link href="/about"><a>About</a></Link>
-        <Link href="/projects"><a>Projects</a></Link>
-        <Link href="/contact"><a>Contact</a></Link>
+        <Link prefetch href="/"><a>Home</a></Link>
+        <Link prefetch href="/about"><a>About</a></Link>
+        <Link prefetch href="/projects"><a>Projects</a></Link>
+        <Link prefetch href="/contact"><a>Contact</a></Link>
       </div>
     </div>
 )

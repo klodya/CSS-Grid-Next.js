@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="stylesheet" href="/_next/static/style.css" />
           <link rel="stylesheet" href="../static/fonts/archistico_normal_macroman/stylesheet.css" type="text/css" charset="utf-8" />
-          <link rel="icon" href="/static/pencil.png"/>
+          <link rel="icon" href="/static/images/pencil.png"/>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
         <body>

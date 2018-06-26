@@ -55,7 +55,7 @@ export default () => (
           <p>Nulla vitae elit libero, a pharetra augue.</p>
         </div>
         <div className="dotted-image">
-          <img className="bottom-image" src="/static/media.png" ></img>
+          <img className="bottom-image" src="/static/images/media.png" ></img>
           <p>Nulla vitae elit libero, a pharetra augue.</p>
         </div>
         <div className="dotted-image">

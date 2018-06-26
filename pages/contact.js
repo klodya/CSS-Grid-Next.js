@@ -54,20 +54,20 @@ export default () => (
           <h2 className="get-in-touch-title">Thanks! (◠‿◠)</h2>
           <p>If you'd like to get in touch about anything I've said, or check out the code for this website...</p>
           <span>
-            <img className="social" src="/static/email.png"></img>
+            <img className="social" src="/static/images/email.png"></img>
             <a href="mailto:&#99;&#109;&#64;&#107;&#112;&#118;&#45;&#108;&#97;&#98;&#46;&#99;&#111;&#46;&#117;&#107;">
               &#99;&#109;&#64;&#107;&#112;&#118;&#45;&#108;&#97;&#98;&#46;&#99;&#111;&#46;&#117;&#107;
             </a>
           </span>
           <span>
-            <img className="social" src="/static/twitter.png"></img>
+            <img className="social" src="/static/images/twitter.png"></img>
             <a href="https://twitter.com/cleverclauds">
             &#64;&#99;&#108;&#101;&#118;&#101;&#114;&#99;&#108;&#97;&#117;&#100;&#115;
             </a>
           </span>
          
          <span>
-           <img className="social" src="/static/github.png"></img>
+           <img className="social" src="/static/images/github.png"></img>
            <a href="https://github.com/klodya/CSS-Grid-Next.js">github.com/klodya/CSS-Grid-Next.js</a>
          </span>
         </div>
